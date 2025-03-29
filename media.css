@@ -1,0 +1,128 @@
+@media (min-width: 280px) and (max-width: 720px) {
+    header{
+        font-size: 0.8rem;
+    }
+
+
+/* 
+    body{
+        width: 100%;
+        height:4100px;
+        background-image: url("back.png");
+        background-size: cover;
+        ;
+    } */
+
+
+
+
+    .hero{
+        flex-direction: column;
+    }
+    .lefthero{
+        width: 100%;
+    }
+    .righthero{
+        width:100%;
+        padding-top: 0rem;
+        justify-content: center;
+        
+    }
+    .righthero img{
+        height: 23rem;
+    }
+    .lefthero{
+        width: 100%;
+        
+    }
+
+
+    .headerleft a{
+        display:none
+    }
+
+
+
+    .lefthero p{
+        font-size: 0.5rem;
+    }
+    .container{
+        gap:7rem
+    }
+    .theory h2{
+        font-size: 2rem;
+    }
+    .theory{
+        
+        width: 100%;
+       
+        gap: 2rem;
+        height: 10rem;
+        
+    }
+    .new{
+        height:15rem
+    }
+    .theory p{
+        display: flex;
+        font-size: 0.5rem;
+        line-height: 1rem;
+        justify-content: start;
+    }
+    .section{
+        flex-direction: column;
+        gap :2rem
+    }
+    .leftsection{
+        width: 100%;
+        align-items: center;
+    }
+    .rightsection{
+        width: 70%;
+        margin-left: 20%;
+        justify-content: end;
+    }
+    .leftsection h3{
+        font-size: 2rem;
+
+    }
+    .leftsection p{
+        font-size: 0.5rem;
+    }
+    .para{
+        margin-top: 17rem;
+        width: 80%;
+        margin-left: 0rem;
+    }
+    .para h4{
+        font-size: 2rem;
+
+    }
+    footer{
+        margin-top: 0.2rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .endfooter{
+        width: 100%;
+        align-items: start;
+
+        flex-direction: column;
+    }
+ .p{
+    font-size: 1rem;
+ }
+ .endfooter2{
+    width: 100%; padding-left: 0.25rem;
+    align-items: start;
+    flex-direction: column;
+ }
+ .hamburgur{width :4rem;
+    height: 3.2rem;
+    background-image: url("hamburgyr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+ display: block;}
+
+    
+}
